@@ -80,6 +80,9 @@ def get_locale():
 
 @app.route("/")
 def index():
+    """
+    index page
+    """
     return render_template("6-index.html")
 
 

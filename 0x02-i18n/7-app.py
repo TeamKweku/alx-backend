@@ -95,6 +95,9 @@ def get_timezone():
 
 @app.route("/")
 def index():
+    """
+    index page
+    """
     return render_template("7-index.html")
 
 
